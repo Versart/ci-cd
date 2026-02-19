@@ -10,6 +10,6 @@ public class TesteController {
 
     @GetMapping
     public String olaMundo() {
-        return "Ola mundo";
+        return "Ola mundo!!";
     }
 }
