@@ -13,7 +13,7 @@ public class TesteController {
         return "Ola mundo!!";
     }
 
-    @GetMapping
+    @GetMapping("/teste")
     public String olaTeste() {
         return "Ola teste!";
     }
