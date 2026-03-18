@@ -12,4 +12,9 @@ public class TesteController {
     public String olaMundo() {
         return "Ola mundo!!";
     }
+
+    @GetMapping("/teste")
+    public String olaTeste() {
+        return "Ola teste!";
+    }
 }
