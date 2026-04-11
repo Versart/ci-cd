@@ -12,7 +12,7 @@ class DemoApplicationTests {
 	}
 
 	@Test
-	void testeFail() {
+	void testeFail2() {
 		Assertions.assertThat(false).isTrue();
 	}
 
