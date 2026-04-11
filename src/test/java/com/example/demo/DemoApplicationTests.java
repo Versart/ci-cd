@@ -11,4 +11,9 @@ class DemoApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void testeFail() {
+		Assertions.assertThat(false).isTrue();
+	}
+
 }
