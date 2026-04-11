@@ -15,7 +15,7 @@ public class TesteController {
 
     @GetMapping("/teste")
     public String olaTeste() {
-        return "Ola teste2!";
+        return "Ola teste3!";
     }
 
 }
